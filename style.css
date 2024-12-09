@@ -9,7 +9,9 @@ html{
     font-size: 100%;
 }
 body{
-    /* Here you can set your default font-family, line-height 
+    background-color: rgb(255, 146, 201);
+
+    * Here you can set your default font-family, line-height 
         You can also use max-width and auto margins to limit the width of the page content
         If you set a background-color here it will be the site background color.
     */
@@ -44,19 +46,22 @@ a:visited{
     It also sets the color for the navigation.
     ------------------------------------------------------ */ 
 nav{
-    background-color: #fef6c6;
+    background-color: whitesmoke;
     padding: 10px;
 }
     nav ul{
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 nav li
 {
     display: inline; /* brings nav elements up next to each other */
     list-style-type: none; /* removes the bullet points */
+    margin-right: 20px;
     padding-right: 20px; /* spaces them out from each other. Adjust to suit your needs */
 }
+
 /* Change this to whatever color you want your nav and visited nav links to be */
 nav li a{
     color: #1313f1;
